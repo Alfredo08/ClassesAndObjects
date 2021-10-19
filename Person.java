@@ -48,4 +48,8 @@ public class Person{
         System.out.println( "LastName: " + this.lastName );
         System.out.println( "Age: " + this.age );
     }
+
+    public static double addTwoNumbers( double num1, double num2 ){
+        return num1 + num2;
+    }
 }

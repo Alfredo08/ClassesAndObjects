@@ -4,7 +4,7 @@ public class PersonApp {
         Person roger = new Person( "Roger", "Stuart" );
         Student maria = new Student( "Maria", "Robles", 28, 12345, "Marco" );
         String fullName;
-  
+ 
         alex.print();
         fullName = alex.getFirstName() + " " + alex.getLastName();
         System.out.println( "Full name of Alex: " + fullName );
@@ -13,5 +13,8 @@ public class PersonApp {
         fullName = maria.getFirstName() + " " + maria.getLastName();
         System.out.println( "Full name of Maria: " + fullName );
         maria.print();
+
+        double result = Person.addTwoNumbers(20.5, 30.5);
+        System.out.println( result );
     }
 }
